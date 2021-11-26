@@ -1,0 +1,157 @@
+.header{
+    background-color: #3E463F;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+#headerconteiner{
+    margin-bottom: 3px;
+}
+
+#headermenubar{
+    text-align: justify;
+    font-size:larger;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri','Trebuchet MS', sans-serif;
+    display: inline-block;
+    vertical-align:top;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+#Home{
+    color: #F7A423;
+    margin-right: 5px;
+    text-decoration:none;
+}
+#Series{
+    color:#F7A423;
+    margin-right: 5px;
+    text-decoration:none;
+}
+#Mangás{
+    color: #F7A423;
+    margin-right: 5px;
+    text-decoration:none;
+}
+
+#Logo{
+    width: 100%;
+    text-align: center;
+}
+
+#BannerCrunchyroll{
+    border-radius: 10px;
+    text-align: justify;
+    width: 150px;
+    margin-bottom: 0px;
+}
+
+#banner{
+    width: 100%;
+}
+
+#BannerSerie{
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 0px;
+}
+
+#conteinerGenero{
+    background-color: #3E463F;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+
+#Genero{
+    padding-left: 15px;
+    font-size: medium;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+#SubGeneros{
+    padding-left: 15px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
+}
+
+#Populares{
+    color: #F7A423;
+    padding-right: 5px;
+}
+#Shounen{
+    color: #F7A423;
+    padding-right: 5px;
+}
+#Shoujo{
+    color: #F7A423;
+    padding-right: 5px;
+}
+#Isekai{
+    color: #F7A423;
+    padding-right: 5px;
+}
+#Calendário{
+    color: #F7A423;
+    padding-right: 5px;
+}
+
+
+
+
+#Pesquisa{
+    vertical-align: top;
+    display:inline-block; 
+    padding-top: 50px;
+    position: absolute;
+    right: 20px;
+}
+
+#headerSearch_input{
+    margin-right: 0px;
+    border-radius: 5px;
+}
+
+#headerSearch_submit{
+    border-radius: 5px;
+}
+
+
+
+#ListadosAnimes{
+    position: relative;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.ListaAmimes{
+    width: 940px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin: 0 auto 0 0;
+}
+.ListaAmimes li{
+    width: 250px;
+    padding: auto;
+    padding-top: 20px;
+    padding-right: 3px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    text-align: center;
+    font-size:x-small;
+    color: #F7A423;
+    border: 3px solid #F7A423;
+    border-radius: 10px;
+
+}
+.ListaAmimes img{
+    width: 200px;
+    height: 200px;
+}
+
+.ListaAnimes h1{
+    font-size: 12px;
+}
