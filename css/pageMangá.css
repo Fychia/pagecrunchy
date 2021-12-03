@@ -50,25 +50,18 @@
     border-radius: 5px;
 }
 
-#BannerPrincipal{
-    width: 100%;
-    border-radius: 10px;
-}
-
-
 #BannerSerie{
     width: 100%;
     border-radius: 10px;
-    padding-top: 0px;
 }
-
 
 
 
 
  /* Menu de Genêros */
 
- #conteinerGenero{
+
+#conteinerGenero{
     background-color: #3E463F;
     border-radius: 10px 10px 0 0;
     padding: 10px 0 0 0;
@@ -102,18 +95,18 @@
 
 
 
+ /* Lista de Mangás */
 
- /* Lista de Animes */
 
-
- #ListadosAnimes{
+#ListadosAnimes{
     position: relative;
-    background-image: url("../arquivosISO/slider-bg.jpg");
+    background-image: url("../arquivosISO/wallGodH.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
     border-radius: 0 0 10px 10px;
     font-family: 'Fuzzy Bubbles', cursive;
+    
 }
 
 
@@ -151,6 +144,7 @@
 .ListaAnimes h1{
     font-size: 12px;
 }
+
 
 /* Footer */
 

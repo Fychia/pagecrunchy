@@ -1,0 +1,123 @@
+.header{
+    background-color: #3E463F; 
+    border-radius: 10px;
+    margin:0 0 5px;
+}
+
+#BannerCrunchyroll{
+    text-align: justify;
+    width: 150px;
+    margin: 0 0 5px;
+}
+
+#headerconteiner{
+    background-color: #3E463F;
+    border-radius: 10px;
+    margin: 0 0 5px;
+}
+
+#headermenubar a:hover{
+    color: #AAB4AA;
+}
+
+#headermenubar{
+    vertical-align:top;
+    display: inline-block;
+    text-align: justify;
+    font-size:larger;
+    font-weight: bolder;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 50px 5px 0 ;
+    transition: 1s;
+    cursor:pointer;
+}
+
+#headerconteiner a{
+    color: #F7A423;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+#Busca{
+    vertical-align: top;
+    display:inline-block; 
+    padding: 50px 0 0 0;
+    position: absolute;
+    right: 20px;
+}
+
+.Pesquisa{
+    border-radius: 5px;
+}
+
+#BannerPrincipal{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* Noticia */
+main{
+    background-image: url(../arquivosISO/wallpaperGrey.jpg);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: #F7A423;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-shadow: 2px 2px #FEFEFE;
+}
+
+#Notícias{
+    width: 980px;
+    height: auto;
+    margin: 10px 10%;
+    text-align: center;
+    border: 5px solid #AAB4AA;
+    border-radius: 10px;
+}
+
+.Conteúdo li{
+    height:auto;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 1px dashed #F7A423;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 16px;
+    padding: 20px 10px;
+    color: #000000;
+}
+
+
+
+
+iframe{
+    display: inline-block;
+    margin: 10px 20%;
+
+}
+
+
+
+
+
+/* Footer */
+
+#CopyrightFooter{
+    color: white;
+    font-size: 12px;
+    background-image: url("../arquivosISO/textura-preta_1205-327.jpg");
+    margin: 10px 0 10px;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+}
+
+
+/* Viewport */
+
+@media screen (max-width: 480px){
+    body {
+        width: auto;
+    }
+
+}

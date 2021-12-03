@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sylesheet" href="css/reset.css.zip">
+    <link rel="stylesheet" href="css/pageContato.css">
+    <link id="Logo" rel="shortcut icon" href="arquivosISO/hime-banner.png">
+    <title>Crunchyroll Contato</title>
+</head>
+<header>
+    <div id="headerconteiner" class="header container">
+        <img id="BannerCrunchyroll" src="arquivosISO/hime-banner.png" alt="Logo">
+        <div id="headermenubar" class="header_menubar">
+            <a id="Home" href="pageHome.html">Home</a>
+            <a id="Series" href="pageSéries.html">Séries</a>
+            <a id="Mangás" href="pageMangá.html">Mangás</a>
+            <a id="Contato" href="pageContato.html">Contato</a>
+        </div>
+        <div id="Busca" class="Pesquisa"> 
+            <form id="headerSearch" class="header-search-form" action="/search" method="get" itemprop="potentialAction" data-text="Busca">
+                <link href="/search?q={q}" itemprop="target">
+                    <!--Barra de Busca-->
+                <div class="Pesquisa_busca">
+                  <input id="headerSearch_input" class="Pesquisa" placeholder="Buscar Anime..." data-position="top right" data-text="Busca">
+          
+                  <button id="headerSearch_submit" class="Pesquisa" title="Busca">
+          
+                    <span class="button-label">Busca</span>
+                  </button>
+          
+                  <div id="header_search_autocomplete" class="header-search-autocomplete"></div>
+                </div>
+              </form>        
+        </div>
+    </div>
+</header>
+<body>
+  <!-- Conteúdo -->
+  <main id="Formulário" class="Formulário_">
+    <form id="ConteúdoFormulário">
+      <label for="NomeSobrenome" class="Formulário_">Insira Nome e Sobrenome</label>
+      <input type="text" id="NomeSobrenome" required>
+      
+      <label for="Email">Insira o E-mail</label>
+      <input type="email" id="Email" class="Formulário_" required>
+
+      <label for="Telefone">Telefone</label>
+      <input type="tel" id="Telefone" class="Formulário_" required placeholder="(xx) xxxxx-xxxx">
+
+      <label for="Mensagem">Mensagem</label>
+      <textarea id="Mensagem"cols="50" rows="10" placeholder="Escreva sua mensagem aqui..." class="Formulário_" required></textarea>
+
+
+      <fieldset id="Radio-Box" class="radio-box">
+        <legend>Como prefere o nosso contato?</legend>
+        <label for="radio-E-mail"><input id="radio-E-mail" name="Contato" type="radio" value="E-mail">E-mail</label>
+  
+        <label for="radio-RadioTelefone"><input id="radio-RadioTelefone" name="Contato" type="radio" value="Telefone">Telefone</label>
+        
+      </fieldset>
+      <input id="Enviar" type="submit">
+
+    </form>
+  </main>
+
+  <table> 
+  
+    <thead> <p>Horário de Funcionamento</p>
+      <tr>
+        <th>Dia</th>
+        <th>Horário</th>
+      </tr>
+    </thead>
+  
+    <tbody>
+      <tr>
+        <td>Segunda a Sexta</td>
+        <td>8h ~ 20h</td>
+      </tr>
+  
+      <tr>
+        <td>Sábado e Domingo</td>
+        <td>9h ~ 18h</td>
+      </tr>
+    </tbody>
+  
+  </table>  
+
+<footer>
+    <div id="CopyrightFooter" class="Copyright_footer">
+      <p>	&#169; Copyright Crunchyroll 2021</p>
+    </div>
+  </footer>
+</body>
+</html>

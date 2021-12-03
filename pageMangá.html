@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="sylesheet" href="css/reset.css.zip">
+    <link rel="stylesheet" href="css/pageMangá.css">
     <link id="Logo" rel="shortcut icon" href="arquivosISO/hime-banner.png">
-    <title>Crunchyroll</title>
+    <title>Crunchyroll Mangás</title>
 </head>
 <header>
-    <div id="headerconteiner" class="header container">
-        <img id="BannerCrunchyroll" src="arquivosISO/hime-banner.png">
-        <div id="headermenubar" class="header menubar">
-            <a id="Home" href="page.html">Home</a>
+    <div id="headerconteiner" class="headercontainer">
+        <img id="BannerCrunchyroll" src="arquivosISO/hime-banner.png" alt="Logo">
+        <div id="headermenubar" class="header_menubar">
+            <a id="Home" href="pageHome.html">Home</a>
             <a id="Series" href="pageSéries.html">Séries</a>
             <a id="Mangás" href="pageMangá.html">Mangás</a>
-        </ul>
-        <div id="Pesquisa" class="Pesquisa"> 
+            <a id="Contato" href="pageContato.html">Contato</a>
+        </div>
+        <div id="Busca" class="Pesquisa"> 
             <form id="headerSearch" class="header-search-form" action="/search" method="get" itemprop="potentialAction" data-text="Busca">
                 <link href="/search?q={q}" itemprop="target">
                     <!--Barra de Busca-->
-                <div class="content">
-                  <input id="headerSearch_input" class="header-searchbox" placeholder="Buscar Anime..." data-position="top right" data-text="Busca">
+                <div class="Pesquisa_busca">
+                  <input id="headerSearch_input" class="Pesquisa" placeholder="Buscar Anime..." data-position="top right" data-text="Busca">
           
-                  <button id="headerSearch_submit" class="headerSearchbox-submit" title="Busca">
+                  <button id="headerSearch_submit" class="Pesquisa" title="Busca">
           
                     <span class="button-label">Busca</span>
                   </button>
@@ -35,9 +37,63 @@
     </div>
 </header>
 <body>
-    <div class="conteiner body">
-        <img id="BannerPrincipal" src="arquivosISO/12092020_Crunchyroll_STORY_LEVEL_BANNER_1600x483.jpg">
+  <img id="BannerSerie" src="arquivosISO/crunchyroll-logo.webp" alt="Banner">
+  <div id="conteinerGenero" class="contariner_generos">
+    <a id="Genero">Informe o Gênero desejado.</a>
+    <div id="sub_Generos" class="subGeneros">
+     <a href="" class="Category Populares">Populares</a>
+     <a href="" class="Category Shounen ">Shounen</a>
+     <a href="" class="Category Shoujo ">Shoujo</a>
+     <a href="" class="Category Isekai ">Isekai</a>
+     <a href="" class="Calendário">Calendário de lançamentos<span class="link-arrow"></span></a>
     </div>
-    
+  </div>
+</div>
+<div id="ListadosAnimes" class="maincontent">
+  <ul class="ListaAmimes">
+    <li> 
+      <img src="arquivosISO/Capas Animes/One piece.png">
+      <h1>One Piece</h1>
+    </li>
+
+    <li> 
+      <img src="arquivosISO/Capas Animes/Naruto.jpg">
+      <h1>Naruto</h1>
+    </li>
+    <li> 
+      <img src="arquivosISO/Capas Animes/Jujutsu Kaisen.jpg">
+      <h1>Jujutsu Kaisen</h1>
+    </li>
+    <li> 
+      <img src="arquivosISO/Capas Animes/Boku no Hero.jpg">
+      <h1>Boku no Hero</h1>
+    </li>
+    <li> 
+      <img src="arquivosISO/Capas Animes/Jojo´s Bizarre Adventure.jpg">
+      <h1>JoJo´s Bizarre Adventure</h1>
+    </li>
+    <li> 
+      <img src="arquivosISO/Capas Animes/Attack on Titan.jpg">
+      <h1>Attack on Titan</h1>
+    </li>
+    <li> 
+      <img src="arquivosISO/Capas Animes/Tokyo Revengers.jpg">
+      <h1>Tokyo Revengers</h1>
+    </li>
+    <li> 
+      <img src="arquivosISO/Capas Animes/Bleach.jpg">
+      <h1>Bleach</h1>
+    </li>
+    <li> 
+      <img src="arquivosISO/Capas Animes/Black Clover.jpg">
+      <h1>Black Clover</h1>
+    </li>
+  </ul>
+</div>
+<footer>
+  <div id="CopyrightFooter" class="Copyright_footer">
+    <p>	&#169; Copyright Crunchyroll 2021</p>
+  </div>
+</footer>
 </body>
 </html>
